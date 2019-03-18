@@ -24,11 +24,36 @@
 #   feel free to play with it briefly, then move on to m2.
 #
 ###############################################################################
+import rosegraphics as rg
+import math
 
+r = 66
+r2 = r
+center = rg.Point(90, 40)
+circle = rg.Circle(center, r)
+r = 35
+circle.center.x = 200
 
-print('Hello, World')
-print('hi there')
-print('one', 'two', 'buckle my shoe')
+print(r)
+print(r2)
+print(circle)
+print(center)
 
-print(3 + 9)
-print('3 + 9', 'versus', 3 + 9)
+# win3 = rg.RoseWindow(300,300)
+# r = 8
+# s = 14
+# for k in range((s-r)//2+1):
+#     circle = rg.Circle(rg.Point(300,200),r)
+#     circle.attach_to(win3)
+#     r=r+2
+#     win3.render()
+#
+# win3.close_on_mouse_click()
+
+# print('Hello, World')
+# print('hi there')
+# print('one', 'two', 'buckle my shoe')
+#
+# print(3 + 9)
+# print('3 + 9', 'versus', 3 + 9)
+
