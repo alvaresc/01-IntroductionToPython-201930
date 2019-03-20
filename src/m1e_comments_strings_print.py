@@ -27,17 +27,12 @@
 import rosegraphics as rg
 import math
 
-r = 66
-r2 = r
-center = rg.Point(90, 40)
-circle = rg.Circle(center, r)
-r = 35
-circle.center.x = 200
 
-print(r)
-print(r2)
-print(circle)
-print(center)
+for k in range(-6,-3,):
+    print(k)
+
+
+
 
 # win3 = rg.RoseWindow(300,300)
 # r = 8
