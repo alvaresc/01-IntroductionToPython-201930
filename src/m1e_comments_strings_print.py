@@ -27,12 +27,22 @@
 import rosegraphics as rg
 import math
 
+def find1(numbers):
+    for k in range(len(numbers)):
+        if numbers[k] < 0:
+            return numbers[k]
+        else:
+            return None
 
-for k in range(-6,-3,):
-    print(k)
+print(find1( [3, -6, 1, 4, 9, 5] ))
 
-
-
+# def find2(numbers):
+#     for k in range(len(numbers)):
+#         if numbers[k] < 0:
+#             return numbers[k]
+#     return None
+#
+# print(find2( [-3, 6, 1, 4, 9, 5] ))
 
 # win3 = rg.RoseWindow(300,300)
 # r = 8
