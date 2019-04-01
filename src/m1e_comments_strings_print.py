@@ -25,16 +25,6 @@
 #
 ###############################################################################
 import rosegraphics as rg
-import math
-
-def find1(numbers):
-    for k in range(len(numbers)):
-        if numbers[k] < 0:
-            return numbers[k]
-        else:
-            return None
-
-print(find1( [3, -6, 1, 4, 9, 5] ))
 
 # def find2(numbers):
 #     for k in range(len(numbers)):
