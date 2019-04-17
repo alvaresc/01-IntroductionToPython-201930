@@ -25,6 +25,46 @@
 #
 ###############################################################################
 import rosegraphics as rg
+import math
+
+# def problem1(m):
+#     sum = 0
+#     for k in range(m,4*m+1):
+#         if math.cos(k) > 0:
+#             sum = sum + math.cos(k)
+#     return sum
+#
+# print(problem1(1))
+#
+# def problem2a(circle,window):
+#     circle.attach_to(window)
+#     h_line = rg.Line(rg.Point(circle.center.x - circle.radius,circle.center.y), rg.Point(circle.center.x + circle.radius,circle.center.y))
+#     v_line = rg.Line(rg.Point(circle.center.x,circle.center.y - circle.radius), rg.Point(circle.center.x,circle.center.y + circle.radius))
+#     h_line.attach_to(window)
+#     v_line.attach_to(window)
+#     window.render()
+#
+#
+# print('test1')
+# win = rg.RoseWindow()
+# circle = rg.Circle(rg.Point(200,200),20)
+# problem2a(circle,win)
+#
+# def problem2b(circle,dx,dy,n,window):
+#     for k in range(n):
+#         new_center = rg.Point(circle.center.x + k*dx,circle.center.y + k*dy)
+#         c_clone = rg.Circle(new_center,circle.radius)
+#         c_clone.attach_to(window)
+#         problem2a(c_clone,window)
+#     window.render()
+#     window.close_on_mouse_click()
+#
+#
+# circle2 = rg.Circle(rg.Point(200, 250), 20)
+# window = rg.RoseWindow()
+#
+# problem2b(circle2,5,10,4,window)
+# win.close_on_mouse_click()
 
 
 
