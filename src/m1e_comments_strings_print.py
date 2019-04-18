@@ -44,7 +44,15 @@ import math
 #     v_line.attach_to(window)
 #     window.render()
 #
-#
+
+
+a = ([1,2,3],[3,4,5])
+print(a)
+list1 = a[1]
+list1[0] = 6
+print(a)
+
+
 # print('test1')
 # win = rg.RoseWindow()
 # circle = rg.Circle(rg.Point(200,200),20)
