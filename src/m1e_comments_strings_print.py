@@ -27,19 +27,17 @@
 import rosegraphics as rg
 import math
 
-def mys(word):
-    for j in range(len(word)):
-        for k in range(j):
-            print('_',end = '')
-        print(word[j])
 
-mys('hello')
+def shape(r):
+    for k in range(r):
+        for j in range(r-k):
+            print('*', end='')
+        for i in range(k+1):
+            print(r-i, end='')
+        print()
 
-
-
-
-
-
+shape(5)
+#
 # class Mini(object):
 #     def __init__(self,a):
 #         self.a = 3
